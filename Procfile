@@ -1,1 +1,1 @@
-web: bot_telegramm.py start
+ python3 bot.py
