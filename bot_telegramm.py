@@ -3,7 +3,7 @@ import random
 from glob import glob
 from random import choice
 from telebot import types
-bot = telebot.TeleBot('1242295502:AAF90d8D30052YUXySiHYkFRtOmSnD7qP5c')
+bot = telebot.TeleBot('')
 @bot.message_handler(commands=['start', 'help'])
 def welcome_message(message):
     
